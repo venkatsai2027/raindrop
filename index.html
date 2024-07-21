@@ -9,8 +9,16 @@
 <body>
     <div class="container">
         <h1>Rainfall Grid Game</h1>
+        <form id="grid-form">
+            <label for="rows">Rows:</label>
+            <input type="number" id="rows" name="rows" min="1" value="15">
+            <label for="cols">Columns:</label>
+            <input type="number" id="cols" name="cols" min="1" value="20">
+            <button type="submit">Update Grid</button>
+        </form>
         <div id="grid" class="grid"></div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+

@@ -1,10 +1,9 @@
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('image2.jpg') ;
+    background-image: url('image2.jpg');
     background-size: cover;
     margin: 0;
     font-family: 'Arial', sans-serif;
@@ -22,10 +21,16 @@ h1 {
     color: goldenrod;
 }
 
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    margin-right: 10px;
+}
+
 .grid {
     display: grid;
-    grid-template-columns: repeat(20, 30px);
-    grid-template-rows: repeat(15, 30px);
     gap: 2px;
     background-color: darkblue;
     padding: 10px;
@@ -39,4 +44,26 @@ h1 {
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 5px;
     transition: background-color 0.3s;
+}
+
+button {
+    background-color: hotpink;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    
+    font-weight: bold;
+
+}
+
+label {
+    font-family: fantasy;
+    color: indianred;
+}
+
+input {
+    width: 100px;
 }
